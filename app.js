@@ -12,7 +12,7 @@ app.use("/api", dataRoutes);
 
 export default app;
 
-app.get("/hint", (req, res) => res.send(
+app.get("/hint/get", (req, res) => res.send(
     `<h5>enter /api/data to get all data</h5>`
     // `<h5>enter /api/data/10 to get 10 data</h5>`
     )
